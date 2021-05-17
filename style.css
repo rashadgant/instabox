@@ -15,7 +15,7 @@ b {
     display:flex
 }
 .contents {
-        width: 70%;
+    width: 70%;
     align-items: center;
     justify-content: flex-start;
     }
