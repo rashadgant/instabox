@@ -1,56 +1,84 @@
-.header {
-    background-color: #F2F2F5;
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+body {
+    background-color: #FAFAFA;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.main-buttons {
-    border: solid purple 1px;
-    height: 100px;
+b {
+    color: black;
+}
+.masterbox {
+    display: flex;
+}
+#instalogo {
     width: 33%;
+    margin-top: 100px;
+    margin-left: 150px;
+    display:flex
+}
+.contents {
+        width: 70%;
+    align-items: center;
+    justify-content: flex-start;
+    }
+.topbar {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+#igtext{    
+    display: flex;
+    font-size: large;
+}
+#followingbutton {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    border: solid black 1px;
+    border-radius: 10px;
+    font-size: larger;
+}
+#more {
+    justify-content: flex-end;
+    font-size: large;
+}
+.numbers {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+#posts{
+    display: flex;
+}
+#followers{
+    justify-content: center;
+}
+#following{
+    justify-content: center;
+}
+.bio {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-}
-
-.button {
-    width: 50px;
-    height: 50px;
-    border: solid green 1px;
-    display: flex;
     flex-direction: column;
-    align-items: center;
 }
-
-.button-icon {
-    border: solid #9B9BA8 1px;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 3px;
+#instagramtext {
+    font-size: larger;  
 }
-
-.button-text {
-    font-family: Arial;
-    font-size: 12px;
+#bioinput {
+    display: flex;
+    font-size: larger;
 }
-
-.button-icon-blue {
-    border: solid #0E71EB 1px;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 3px;
+#link {   
+    font-size: larger;
+    color: #083A6E; 
 }
-
-.button-text-blue {
-    font-family: Arial;
-    font-size: 12px;
-    color: #0E71EB;
+#followedby {
+    color: #B8B8B8;
 }
-
-.search {
-    border: solid red 1px;
-    height: 100px;
-    width: 33%;
+.categories {
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+     display: flex;
+    justify-content: space-around;
 }
